@@ -1,0 +1,59 @@
+.ProductCard {
+	width: 259px;
+    height: 472px;
+    padding-right: 0;
+    padding: 5px;
+    justify-content: center;
+    /* display: inline-flex;
+    align-items: center; */
+
+}
+
+.ProductCard img {
+    width: 227px;
+    height: 224px;
+}
+
+.ProductCard > div:last-child {
+    margin-left: auto;
+}
+
+.ProductCard > .title{
+    width: 227px;
+    height: 74px;
+}
+
+.ProductCard >  .price{
+    position: relative;
+    right: 75px;
+    font-weight: bold;
+}
+
+.ProductCard >  .description{
+    margin-top: 5px;
+    width: 227px;
+    height: 41px;
+    /* position: relative; */
+    /* right: 75px; */
+    overflow: hidden;
+    font-weight: bold;
+    font-size: small;
+    color: #DFDFDE;
+}
+
+.ProductCard  .rates-rates{
+    position: relative;
+    right: 65px;
+    bottom: -65px;
+}
+
+.ProductCard  .watch-list{
+    font-size: 8px;
+    display: inline-block;
+    position: relative;
+    left: 135px;
+    bottom: 35px;
+    width: 64px;
+    height: 24px;
+}
+

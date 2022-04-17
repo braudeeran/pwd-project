@@ -1,0 +1,18 @@
+.Layout {
+    width: 1920px;
+    height: 2104px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.Layout > main {
+    position: absolute;
+    width: 1114px;
+    height: 1612px;
+    right: 214px;
+    left: 592px;
+    bottom: 292px;
+    top: 200px;
+    text-align: center;
+    margin: 0, 16px,0, 16px;
+}

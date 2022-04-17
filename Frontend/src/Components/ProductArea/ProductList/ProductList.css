@@ -1,0 +1,38 @@
+.ProductList > a {
+    width: 1114px;
+    width: 1612px;
+	position: absolute;
+    text-decoration: none;
+    text-align: center;
+    margin: 0, 16px,0, 16px;
+}
+
+.ProductList > .sort{
+    margin-top: 5px;
+    position: relative;
+    right: 315px;
+}
+
+.ProductList > .sort > select{
+    margin-right: 10px;
+    width: 136px;
+    height: 36px;
+    font-size: small;
+}
+
+.ProductList > .ProductList-headers {
+    margin-top: 5px;
+    position: relative;
+    right: 225px;
+}
+
+.ProductList > .ProductList-headers > span {
+    font-size: small;
+    margin-top: 5px;
+    color: grey;
+    margin-right: 15px;
+}
+
+.ProductList > .ProductList-headers > span:first-child{
+    color: black;
+}
